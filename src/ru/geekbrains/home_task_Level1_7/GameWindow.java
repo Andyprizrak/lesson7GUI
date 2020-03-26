@@ -53,22 +53,6 @@ public class GameWindow extends JFrame {
     void startNewGame(int gameMode, int fieldSizeX, int fieldSizeY, int winLength) {
 
         fieldPanel.startNewGame(gameMode, fieldSizeX, fieldSizeY, winLength);
-        Map_Draw(WIN_WIDTH , WIN_HEIGHT , fieldSizeX);
-
 
     }
-
-    public void Map_Draw(int x1, int y1, int fsx) {
-        Graphics g = getGraphics();
-        for (int i = 1;  i < fsx; i++) {
-            g.drawLine(i*x1/fsx, 0, i*x1/fsx, y1);
-        }
-        for (int i = 1;  i < fsx; i++) {
-            g.drawLine(0, i*y1/fsx, x1, i*y1/fsx);
-        }
-        // repaint();
-
-    }
-
-
 }
