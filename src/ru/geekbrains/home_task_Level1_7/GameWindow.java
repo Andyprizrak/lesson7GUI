@@ -41,12 +41,11 @@ public class GameWindow extends JFrame {
         pBtns.add(btnStart);
         pBtns.add(btnStop);
         fieldPanel = new FieldPanel();
-
-
         add(pBtns, BorderLayout.SOUTH);
         add(fieldPanel);
         setVisible(true);
     }
+
 
 
 
