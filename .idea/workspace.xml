@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/XoUG/ru/geekbrains/home_task_Level1_7/FieldPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/XoUG/ru/geekbrains/home_task_Level1_7/FieldPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/home_task_Level1_7/FieldPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/home_task_Level1_7/FieldPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/home_task_Level1_7/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/home_task_Level1_7/GameWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/home_task_Level1_7/SettingsWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/home_task_Level1_7/SettingsWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,21 +64,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1585211355009">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1585403689718">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1585211355009" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1585211355008">
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1585403689718" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1585403689717">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1585211355008" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1585211355008">
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1585403689717" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1585403689716">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1585211355008" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1585211355009">
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1585403689716" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1585403689718">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1585211355009" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1585403689718" />
   </component>
 </project>
