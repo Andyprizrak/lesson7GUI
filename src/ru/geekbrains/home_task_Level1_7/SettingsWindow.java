@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class SettingsWindow extends JFrame{
+public class SettingsWindow extends JFrame {
     private static final int WINDOW_WIDTH = 350;
     private static final int WINDOW_HEIGHT = 270;
     private static final int MIN_WIN_LENGTH = 3;
@@ -41,8 +41,6 @@ public class SettingsWindow extends JFrame{
             }
         });
         add(btnStart);
-
-
     }
 
     private void addGameControlsMode() {
@@ -56,7 +54,7 @@ public class SettingsWindow extends JFrame{
         add(humVShum);
     }
 
-    private int addGameControlsField() {
+    private void addGameControlsField() {
         JLabel lbFieldSize = new JLabel(FIELD_SIZE_PREFIX + MIN_FIELD_SIZE);
         JLabel lbWinLength = new JLabel(WIN_LENGTH_PREFIX + MIN_WIN_LENGTH);
         slideFieldSize = new JSlider(MIN_FIELD_SIZE, MAX_FIELD_SIZE, MIN_FIELD_SIZE);
@@ -81,8 +79,6 @@ public class SettingsWindow extends JFrame{
         add(new JLabel("Choose win length"));
         add(lbWinLength);
         add(slideWinLen);
-        return slideFieldSize.getValue();
-
     }
 
     private void btnStartClick() {
@@ -96,7 +92,7 @@ public class SettingsWindow extends JFrame{
         }
         int fieldSize = slideFieldSize.getValue();
         int winLen = slideWinLen.getValue();
-        gameWindow.startNewGame(gameMode, fieldSize, fieldSize, winLen);
+        this.gameWindow.startNewGame(gameMode, fieldSize, fieldSize, winLen);
         setVisible(false);
     }
 
